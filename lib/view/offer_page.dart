@@ -42,7 +42,7 @@ class _OfferingCard extends StatelessWidget {
       onTap: () {
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context) => AddPrduct()),
+          MaterialPageRoute(builder: (context) => AddProduct()),
         );
       },
       child: Card(
